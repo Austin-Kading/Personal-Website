@@ -28,7 +28,7 @@
     <header id="master-head">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div id="title-left">
-          <h1><a class="navbar-brand" href="/">Austin Kading</a></h1>
+          <h1 id="title"><a class="navbar-brand" href="/">Austin Kading</a></h1>
           <p>Software Developer</p>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,6 +45,8 @@
       </nav>
     </header>
     <!-- master-head -->
-    <%= yield %>
+    <div class="container-fluid">
+      <%= yield %>
+    </div>
   </body>
   </html>
